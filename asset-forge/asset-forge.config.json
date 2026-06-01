@@ -1,0 +1,32 @@
+{
+  "projectName": "Local Ops Launcher",
+  "projectType": "Codex plugin and macOS launcher scaffold",
+  "projectPurpose": "Generate and manage public marketplace and documentation assets for the Local Ops Launcher Codex plugin.",
+  "audience": "Codex desktop users, plugin reviewers, and developers managing multiple local projects.",
+  "defaultAssetRoot": "/public/assets/generated",
+  "manifestPath": "/public/assets/asset-manifest.json",
+  "approvedOnlyInProduction": true,
+  "requireHumanApproval": true,
+  "createThumbnails": true,
+  "defaultImageFormat": "png",
+  "defaultQuality": "high",
+  "maxUploadBytes": 15728640,
+  "allowedImageFormats": [
+    "png",
+    "jpg",
+    "jpeg",
+    "webp"
+  ],
+  "allowedMimeTypes": [
+    "image/png",
+    "image/jpeg",
+    "image/webp"
+  ],
+  "storageAdapter": "local-json",
+  "styleBiblePath": "/asset-forge/style-bible.md",
+  "promptRulesPath": "/asset-forge/prompt-rules.md",
+  "negativePromptsPath": "/asset-forge/negative-prompts.md",
+  "assetTypesPath": "/asset-forge/asset-types.json",
+  "generationPresetsPath": "/asset-forge/generation-presets.json",
+  "reviewCriteriaPath": "/asset-forge/review-criteria.md"
+}

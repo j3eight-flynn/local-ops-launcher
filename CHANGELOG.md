@@ -10,6 +10,7 @@
 - Added explicit public submission blocker tracking for required public URLs and optional PNG listing assets.
 - Added GitHub repository metadata, MIT license file, public terms doc, and source-friendly `.gitignore`.
 - Added PNG marketplace icon, logo, and generic screenshot assets.
+- Installed framework-neutral Asset Forge core, CLI, manifest, config, and generated asset folders.
 
 ## 0.2.0 - 2026-05-31
 

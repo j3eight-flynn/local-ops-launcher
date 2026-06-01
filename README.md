@@ -17,6 +17,7 @@ node scripts/local-ops-launcher.mjs generate-workspace --registry .local-ops/lau
 - No services are started or stopped by plugin scripts.
 - No shortcuts or LaunchAgents are deleted or installed automatically.
 - Support bundles can be redacted with `local`, `support`, or `share` privacy modes.
+- Asset Forge is installed as a framework-neutral asset service for marketplace and documentation assets. See `docs/ASSET_FORGE.md`.
 
 ## Install From GitHub
 

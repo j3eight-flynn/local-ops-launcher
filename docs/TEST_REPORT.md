@@ -27,6 +27,17 @@ The submission check validates:
 - package archive creation;
 - archive contents.
 
+## Asset Forge Integration
+
+Installed as a framework-neutral service because this repository is a Codex plugin package, not a Next.js or React app.
+
+Verification:
+
+- `node scripts/asset-forge-cli.mjs request ...`: passed in prompt-only mode and created a `draft_prompt_only` manifest record.
+- `node scripts/asset-forge-cli.mjs list --status approved`: returned no assets, confirming approved-only consumers do not receive drafts.
+- `OPENAI_API_KEY`: not set in the local shell, so image-generation smoke was skipped.
+- Smoke draft prompt and manifest record were removed before commit so generated draft assets are not versioned.
+
 ## Latest Result
 
 Passed on 2026-05-31.

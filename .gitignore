@@ -4,4 +4,10 @@ node_modules/
 .local-ops/
 *.log
 *.tmp
-
+public/assets/generated/draft/*
+!public/assets/generated/draft/.gitkeep
+public/assets/generated/source/*
+!public/assets/generated/source/.gitkeep
+public/assets/generated/thumbnails/*
+!public/assets/generated/thumbnails/.gitkeep
+public/assets/.asset-forge-backups/

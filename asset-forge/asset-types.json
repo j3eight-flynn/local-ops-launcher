@@ -1,0 +1,122 @@
+{
+  "character_portrait": {
+    "label": "Character Portrait",
+    "description": "Portrait or bust image of a character.",
+    "defaultDimensions": "1024x1536",
+    "transparentBackground": false,
+    "safeAreaRequired": false,
+    "defaultFolder": "characters/portraits"
+  },
+  "full_body_character": {
+    "label": "Full Body Character",
+    "description": "Full body character art for profiles, cards, or selection screens.",
+    "defaultDimensions": "1024x1536",
+    "transparentBackground": true,
+    "safeAreaRequired": true,
+    "defaultFolder": "characters/full-body"
+  },
+  "background_scene": {
+    "label": "Background Scene",
+    "description": "Wide scene or environment background.",
+    "defaultDimensions": "1536x1024",
+    "transparentBackground": false,
+    "safeAreaRequired": true,
+    "defaultFolder": "backgrounds"
+  },
+  "card_art": {
+    "label": "Card Art",
+    "description": "Full-bleed art intended for use inside a card frame.",
+    "defaultDimensions": "1024x1536",
+    "transparentBackground": false,
+    "safeAreaRequired": true,
+    "defaultFolder": "cards/art"
+  },
+  "card_back": {
+    "label": "Card Back",
+    "description": "Decorative card back design.",
+    "defaultDimensions": "1024x1536",
+    "transparentBackground": false,
+    "safeAreaRequired": false,
+    "defaultFolder": "cards/backs"
+  },
+  "item_icon": {
+    "label": "Item Icon",
+    "description": "Small item icon with transparent background.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": true,
+    "safeAreaRequired": false,
+    "defaultFolder": "icons/items"
+  },
+  "resource_icon": {
+    "label": "Resource Icon",
+    "description": "Resource or currency icon.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": true,
+    "safeAreaRequired": false,
+    "defaultFolder": "icons/resources"
+  },
+  "building_icon": {
+    "label": "Building Icon",
+    "description": "Icon or small illustration for a building.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": true,
+    "safeAreaRequired": false,
+    "defaultFolder": "icons/buildings"
+  },
+  "terrain_tile": {
+    "label": "Terrain Tile",
+    "description": "Tileable or semi-tileable terrain image.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": false,
+    "safeAreaRequired": false,
+    "defaultFolder": "terrain"
+  },
+  "faction_banner": {
+    "label": "Faction Banner",
+    "description": "Banner, symbol, or crest for a faction.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": true,
+    "safeAreaRequired": false,
+    "defaultFolder": "factions/banners"
+  },
+  "ui_panel": {
+    "label": "UI Panel",
+    "description": "Decorative or functional UI panel background.",
+    "defaultDimensions": "1536x1024",
+    "transparentBackground": true,
+    "safeAreaRequired": true,
+    "defaultFolder": "ui/panels"
+  },
+  "sprite": {
+    "label": "Sprite",
+    "description": "Single sprite or sprite concept asset.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": true,
+    "safeAreaRequired": false,
+    "defaultFolder": "sprites"
+  },
+  "sprite_sheet": {
+    "label": "Sprite Sheet",
+    "description": "Multi-frame sprite sheet for animation.",
+    "defaultDimensions": "1536x1536",
+    "transparentBackground": true,
+    "safeAreaRequired": false,
+    "defaultFolder": "sprites/sheets"
+  },
+  "marketing_visual": {
+    "label": "Marketing Visual",
+    "description": "Promotional visual for launch pages, social posts, or campaign materials.",
+    "defaultDimensions": "1536x1024",
+    "transparentBackground": false,
+    "safeAreaRequired": true,
+    "defaultFolder": "marketing"
+  },
+  "custom": {
+    "label": "Custom Asset",
+    "description": "Project-specific asset not covered by the built-in categories.",
+    "defaultDimensions": "1024x1024",
+    "transparentBackground": false,
+    "safeAreaRequired": false,
+    "defaultFolder": "custom"
+  }
+}

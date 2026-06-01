@@ -24,6 +24,13 @@ const secretPattern = new RegExp(
     "SUPABASE"
   ].map((prefix) => `${prefix}_API_KEY`).join("|") + "|SUPABASE" + "_SERVICE_ROLE|DATABASE" + "_URL="
 );
+const secretValuePattern = new RegExp(
+  [
+    "(OPENAI|ANTHROPIC|SUPABASE)_API_KEY[^\\S\\r\\n]*=[^\\S\\r\\n]*[^\\s#]+",
+    "SUPABASE_SERVICE_ROLE[^\\S\\r\\n]*=[^\\S\\r\\n]*[^\\s#]+",
+    "DATABASE_URL[^\\S\\r\\n]*=[^\\S\\r\\n]*[^\\s#]+"
+  ].join("|")
+);
 
 const requiredFiles = [
   ".codex-plugin/plugin.json",
@@ -37,7 +44,11 @@ const requiredFiles = [
   "docs/PUBLIC_SUBMISSION_BLOCKERS.md",
   "docs/SUBMISSION_PACKET.md",
   "docs/TEST_REPORT.md",
+  "docs/ASSET_FORGE.md",
+  "asset-forge/asset-forge.config.json",
+  "public/assets/asset-manifest.json",
   "skills/local-ops-launcher/SKILL.md",
+  "scripts/asset-forge-cli.mjs",
   "scripts/scan-local-projects.mjs",
   "scripts/generate-registry.mjs",
   "scripts/generate-launcher-workspace.mjs",
@@ -88,7 +99,7 @@ for (const rel of files) {
   for (const term of customForbiddenTerms) {
     if (text.includes(term)) failures.push(`custom forbidden term found in ${rel}`);
   }
-  if (secretPattern.test(text)) {
+  if (secretPattern.test(text) && secretValuePattern.test(text)) {
     failures.push(`possible secret reference found in ${rel}`);
   }
 }

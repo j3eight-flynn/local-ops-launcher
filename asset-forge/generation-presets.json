@@ -1,0 +1,15 @@
+{
+  "promptOnly": {
+    "label": "Prompt-only mode",
+    "provider": "none",
+    "model": "prompt-only",
+    "createsImage": false
+  },
+  "openaiHighQuality": {
+    "label": "OpenAI high quality",
+    "provider": "openai",
+    "model": "gpt-image-1",
+    "quality": "high",
+    "createsImage": true
+  }
+}
