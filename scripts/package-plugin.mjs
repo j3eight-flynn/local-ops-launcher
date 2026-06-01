@@ -13,6 +13,7 @@ await mkdir(dist, { recursive: true });
 await execFileAsync("node", [resolve(root, "scripts/audit-public-package.mjs")]);
 await execFileAsync("/usr/bin/tar", [
   "--exclude", "dist",
+  "--exclude", ".git",
   "-czf",
   archive,
   "-C",

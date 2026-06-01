@@ -7,6 +7,7 @@ Date: 2026-05-31
 - Plugin: `local-ops-launcher`
 - Version: `0.3.0`
 - Artifact: `dist/local-ops-launcher.tar.gz`
+- Public repository: `https://github.com/j3eight-flynn/local-ops-launcher`
 
 ## Required Checks
 
@@ -46,6 +47,13 @@ Warnings:
 
 This is acceptable for a local/repo marketplace candidate, but a future public directory intake may require visual assets.
 
-Additional analyzer note:
+GitHub URL checks:
 
-- `plugin-eval analyze` should be re-run after the GitHub repository is public so URL fields can be checked against live destinations.
+- repository: `200`
+- privacy policy: `200`
+- terms: `200`
+
+Plugin analyzer:
+
+- `plugin-eval analyze`: 95/100, grade A, 0 failures.
+- Remaining warning: deferred token budget is above the baseline because the plugin includes substantial templates and docs.
