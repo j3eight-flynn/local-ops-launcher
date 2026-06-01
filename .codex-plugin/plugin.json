@@ -1,0 +1,42 @@
+{
+  "name": "local-ops-launcher",
+  "version": "0.3.0",
+  "description": "Generate safe local macOS menu-bar launchers for project workspaces.",
+  "author": {
+    "name": "Christopher White",
+    "url": "https://github.com/j3eight-flynn"
+  },
+  "homepage": "https://github.com/j3eight-flynn/local-ops-launcher#readme",
+  "repository": "https://github.com/j3eight-flynn/local-ops-launcher",
+  "license": "MIT",
+  "keywords": [
+    "localhost",
+    "launcher",
+    "macos",
+    "appkit",
+    "diagnostics",
+    "docker",
+    "launchagent"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Local Ops Launcher",
+    "shortDescription": "Scan local apps and generate a safe menu-bar launcher.",
+    "longDescription": "Local Ops Launcher helps Codex discover local projects, draft a fixed-port registry, generate a native macOS menu-bar launcher, validate diagnostics, and redact support bundles without destructive defaults.",
+    "developerName": "Christopher White",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/j3eight-flynn/local-ops-launcher",
+    "privacyPolicyURL": "https://github.com/j3eight-flynn/local-ops-launcher/blob/main/docs/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/j3eight-flynn/local-ops-launcher/blob/main/docs/TERMS.md",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Scan my local projects for a launcher draft.",
+      "Generate a menu-bar launcher workspace.",
+      "Redact this launcher support bundle."
+    ],
+    "brandColor": "#42F5B3"
+  }
+}

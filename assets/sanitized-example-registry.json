@@ -1,0 +1,85 @@
+[
+  {
+    "name": "Hosted Product",
+    "shortName": "Hosted",
+    "category": "Production",
+    "launcherId": "hosted-product",
+    "serviceType": "hostedOnly",
+    "hostedUrl": "https://example.com",
+    "preferredLaunch": "hosted",
+    "workspaceSets": [
+      "Daily"
+    ],
+    "activeBackgroundColor": "#42F5B3",
+    "iconSymbol": "cloud",
+    "displayOrder": 1
+  },
+  {
+    "name": "Local Node App",
+    "shortName": "Node App",
+    "category": "Local Apps",
+    "launcherId": "local-node-app",
+    "serviceType": "screen",
+    "projectPath": "~/Documents/Example Node App",
+    "localUrl": "http://127.0.0.1:3020",
+    "healthUrl": "http://127.0.0.1:3020",
+    "startCommand": "cd '~/Documents/Example Node App' && npm run dev",
+    "preferredLaunch": "local",
+    "workspaceSets": [
+      "Daily"
+    ],
+    "activeBackgroundColor": "#58C8FF",
+    "iconSymbol": "app",
+    "displayOrder": 2
+  },
+  {
+    "name": "Docker Tool",
+    "shortName": "Docker",
+    "category": "Local Apps",
+    "launcherId": "docker-tool",
+    "serviceType": "docker",
+    "projectPath": "~/Documents/Example Docker Tool",
+    "localUrl": "http://127.0.0.1:3021",
+    "healthUrl": "http://127.0.0.1:3021/health",
+    "startCommand": "cd '~/Documents/Example Docker Tool' && docker compose up -d",
+    "repairCommand": "cd '~/Documents/Example Docker Tool' && docker compose up -d",
+    "preferredLaunch": "local",
+    "workspaceSets": [
+      "Daily"
+    ],
+    "activeBackgroundColor": "#FFB000",
+    "iconSymbol": "shippingbox",
+    "displayOrder": 3
+  },
+  {
+    "name": "Agent App",
+    "shortName": "Agent",
+    "category": "Local Apps",
+    "launcherId": "agent-app",
+    "serviceType": "launchAgent",
+    "projectPath": "~/Documents/Example Agent App",
+    "localUrl": "http://127.0.0.1:3022",
+    "healthUrl": "http://127.0.0.1:3022/health",
+    "startCommand": "launchctl kickstart -k gui/$(id -u)/local.example.agent-app",
+    "preferredLaunch": "local",
+    "workspaceSets": [
+      "Daily"
+    ],
+    "activeBackgroundColor": "#B58CFF",
+    "iconSymbol": "bolt",
+    "displayOrder": 4
+  },
+  {
+    "name": "Utility Command",
+    "shortName": "Utility",
+    "category": "Utilities",
+    "launcherId": "utility-command",
+    "serviceType": "utility",
+    "launcherCommandPath": "~/Desktop/Example Utility.command",
+    "preferredLaunch": "local",
+    "workspaceSets": [],
+    "activeBackgroundColor": "#A7FF38",
+    "iconSymbol": "gearshape",
+    "displayOrder": 5
+  }
+]

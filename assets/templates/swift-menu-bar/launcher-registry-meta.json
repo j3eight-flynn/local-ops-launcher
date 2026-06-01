@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "0.1",
+  "generatedAt": "__GENERATED_AT__",
+  "supportedServiceTypes": [
+    "screen",
+    "docker",
+    "screen+docker",
+    "launchAgent",
+    "utility",
+    "hostedOnly"
+  ],
+  "privacyDefault": "local"
+}
