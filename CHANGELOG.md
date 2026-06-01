@@ -9,6 +9,7 @@
 - Updated packaging to run the public audit before producing the tarball.
 - Added explicit public submission blocker tracking for required public URLs and optional PNG listing assets.
 - Added GitHub repository metadata, MIT license file, public terms doc, and source-friendly `.gitignore`.
+- Added PNG marketplace icon, logo, and generic screenshot assets.
 
 ## 0.2.0 - 2026-05-31
 

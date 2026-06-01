@@ -43,9 +43,13 @@ Summary:
 
 Warnings:
 
-- no PNG composer icon is configured.
+- public URLs are present and should be checked against live destinations before submission.
 
-This is acceptable for a local/repo marketplace candidate, but a future public directory intake may require visual assets.
+Marketplace assets:
+
+- `assets/icon.png`
+- `assets/logo.png`
+- `assets/screenshot-menu.png`
 
 GitHub URL checks:
 
@@ -56,4 +60,4 @@ GitHub URL checks:
 Plugin analyzer:
 
 - `plugin-eval analyze`: 95/100, grade A, 0 failures.
-- Remaining warning: deferred token budget is above the baseline because the plugin includes substantial templates and docs.
+- Remaining warning: deferred token budget is above the baseline because the plugin includes substantial templates, docs, and visual assets.

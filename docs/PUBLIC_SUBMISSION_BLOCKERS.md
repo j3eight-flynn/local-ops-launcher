@@ -14,15 +14,15 @@ The manifest uses the GitHub repository as the public home for:
 
 After the repository is created, confirm each URL resolves publicly.
 
-## Optional Public Listing Assets
+## Public Listing Assets
 
-The manifest does not include visual assets yet:
+The manifest includes PNG assets under `assets/`:
 
-- `interface.composerIcon`
-- `interface.logo`
-- `interface.screenshots`
+- `interface.composerIcon`: `./assets/icon.png`
+- `interface.logo`: `./assets/logo.png`
+- `interface.screenshots`: `./assets/screenshot-menu.png`
 
-If the target marketplace requests assets, use PNG files under `assets/` and reference them with relative paths.
+If the target marketplace requires specific dimensions or screenshots of a live Codex surface, regenerate these assets to match that spec.
 
 ## Official Intake Route
 

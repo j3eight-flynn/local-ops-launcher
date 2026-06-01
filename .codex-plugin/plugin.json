@@ -37,6 +37,11 @@
       "Generate a menu-bar launcher workspace.",
       "Redact this launcher support bundle."
     ],
-    "brandColor": "#42F5B3"
+    "brandColor": "#42F5B3",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "screenshots": [
+      "./assets/screenshot-menu.png"
+    ]
   }
 }

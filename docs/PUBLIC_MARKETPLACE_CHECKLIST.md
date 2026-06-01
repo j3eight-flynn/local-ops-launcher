@@ -9,6 +9,7 @@ Use this checklist before submitting Local Ops Launcher to a public Codex plugin
 - [ ] README explains the user workflow and non-destructive defaults.
 - [ ] Privacy, security, support, release checklist, and submission packet docs are present.
 - [ ] Plugin package contains no private project registries, local support bundles, secrets, or machine-specific paths.
+- [ ] Marketplace PNG assets render correctly and match any required dimensions.
 - [ ] `node scripts/submission-check.mjs` passes.
 - [ ] `dist/local-ops-launcher.tar.gz` is rebuilt from the current tree.
 - [ ] The generated launcher smoke test builds a SwiftPM/AppKit workspace.
@@ -22,5 +23,4 @@ Use this checklist before submitting Local Ops Launcher to a public Codex plugin
 
 ## Optional Before Public Listing
 
-- Add PNG icon, logo, and screenshots if the target marketplace accepts visual assets.
 - Add a signed release tag matching the manifest version.

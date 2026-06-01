@@ -9,6 +9,10 @@
 - Platform: macOS for generated menu-bar launcher workspaces
 - Authentication: none
 - Public repository: `https://github.com/j3eight-flynn/local-ops-launcher`
+- Marketplace assets:
+  - `assets/icon.png`
+  - `assets/logo.png`
+  - `assets/screenshot-menu.png`
 
 ## One-Line Summary
 
@@ -69,7 +73,7 @@ node scripts/submission-check.mjs
 
 ## Open Items For Marketplace Owner
 
-- Confirm any required visual-asset dimensions.
+- Confirm any required visual-asset dimensions or screenshot content rules.
 - Confirm whether marketplace packaging should be tarball-based, repository-based, or direct local plugin import.
 - Confirm whether local-only plugins need additional macOS permission disclosures.
 - Official public Plugin Directory publishing is marked as coming soon in the Codex plugin docs, so use this packet for workspace sharing, repo marketplace review, or future public intake once OpenAI exposes the submission path.
